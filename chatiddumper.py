@@ -27,4 +27,7 @@ def main(argv):
     print("ChatId: " + str(chatId))
     
 if __name__ == "__main__":
-    main(sys.argv)
+    if len(sys.argv) == 2:
+        main(sys.argv)
+    else:
+        print("Usage: >python3 " + sys.argv[0] + " <BotId> ") 
