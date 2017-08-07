@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 
 import sys
+
+if sys.version_info < (3, 0):
+    print("Python3 required.")
+    exit()
+
 import urllib.request
 import json
 from time import sleep
