@@ -1,22 +1,22 @@
-<h1 align="center"> Telegram ChatId Dumper </h1>
+<h1 align="center"> Telegram ChatId </h1>
 
 
 Running this script you will get the chat_id of the telegram conversation with your bot. <br />
 Python3 required.
 
 
-`python3 chatiddumper.py <BotId>`
+`python3 chatid.py <BotId>`
 
 Or, if your python path is */usr/bin/env python3*, just:
 
-`./chatiddumper.py <BotId>`
+`./chatid.py <BotId>`
 
 The \<BotId\> is the token that BotFather give you when the bot is created.
 
 
 ## Output example:
 
-`./chatiddumper.py XX:YYY-YYY` <br />
+`./chatid.py XX:YYY-YYY` <br />
 <br />
 `botId: XX:YYY-YYY` <br />
 `HTTP response code: 200` <br />
